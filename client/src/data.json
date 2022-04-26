@@ -1,0 +1,166 @@
+{
+    "bath":[
+        {
+            "id":1,
+            "name": "two handle wall-mount faucet",
+            "brandName": "brizo",
+            "img": {
+            "list": "/uploads/faucet_c444f6ce8c.png?updated_at=2022-04-24T17:02:32.716Z",
+            "mockup": "/uploads/image_8_0eb4f89322.png?updated_at=2022-04-24T17:02:33.459Z"
+            },
+            "luxury": {
+            "isLuxury": false,
+            "price": null
+            },
+            "type": "bathroom faucet",
+            "details": {
+            "Flow Rate": "1.5 GPM",
+            "Mount Type": "Deck Mount | Three Holes",
+            "Finish": "MatteBlack (MB)",
+            "Model": "65875LF-BL",
+            "Connection Size": "1/2 \"",
+            "Options": [
+                "HL5875-BL - Lever Handle",
+                "HX5875-BL - Cross Handle",
+                "HL5875-BLWD - Cross Handle"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque libero tellus, cursus ut dictum vel, tincidunt in odio. Duis dignissim magna nunc, et placerat ligula eleifend vel. Morbi ut tempor diam. Donec convallis, nibh in auctor lacinia, nunc ante eleifend lacus."
+            }
+        },
+        {
+            "id":2,
+            "name": "two handle wall-mount faucet",
+            "brandName": "brizo",
+            "img": {
+            "list": "/uploads/faucet_c444f6ce8c.png?updated_at=2022-04-24T17:02:32.716Z",
+            "mockup": "/uploads/image_8_0eb4f89322.png?updated_at=2022-04-24T17:02:33.459Z"
+            },
+            "luxury": {
+            "isLuxury": false,
+            "price": null
+            },
+            "type": "bathroom faucet",
+            "details": {
+            "Flow Rate": "1.5 GPM",
+            "Mount Type": "Deck Mount | Three Holes",
+            "Finish": "MatteBlack (MB)",
+            "Model": "65875LF-BL",
+            "Connection Size": "1/2 \"",
+            "Options": [
+                "HL5875-BL - Lever Handle",
+                "HX5875-BL - Cross Handle",
+                "HL5875-BLWD - Cross Handle"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque libero tellus, cursus ut dictum vel, tincidunt in odio. Duis dignissim magna nunc, et placerat ligula eleifend vel. Morbi ut tempor diam. Donec convallis, nibh in auctor lacinia, nunc ante eleifend lacus."
+            }
+        },
+        {
+            "id":3,
+            "name": "two handle wall-mount faucet",
+            "brandName": "brizo",
+            "img": {
+            "list": "/uploads/faucet_c444f6ce8c.png?updated_at=2022-04-24T17:02:32.716Z",
+            "mockup": "/uploads/image_8_0eb4f89322.png?updated_at=2022-04-24T17:02:33.459Z"
+            },
+            "luxury": {
+            "isLuxury": false,
+            "price": null
+            },
+            "type": "bathroom faucet",
+            "details": {
+            "Flow Rate": "1.5 GPM",
+            "Mount Type": "Deck Mount | Three Holes",
+            "Finish": "MatteBlack (MB)",
+            "Model": "65875LF-BL",
+            "Connection Size": "1/2 \"",
+            "Options": [
+                "HL5875-BL - Lever Handle",
+                "HX5875-BL - Cross Handle",
+                "HL5875-BLWD - Cross Handle"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque libero tellus, cursus ut dictum vel, tincidunt in odio. Duis dignissim magna nunc, et placerat ligula eleifend vel. Morbi ut tempor diam. Donec convallis, nibh in auctor lacinia, nunc ante eleifend lacus."
+            }
+        },
+        {
+            "id":4,
+            "name": "two handle wall-mount faucet",
+            "brandName": "brizo",
+            "img": {
+            "list": "/uploads/faucet_c444f6ce8c.png?updated_at=2022-04-24T17:02:32.716Z",
+            "mockup": "/uploads/image_8_0eb4f89322.png?updated_at=2022-04-24T17:02:33.459Z"
+            },
+            "luxury": {
+            "isLuxury": false,
+            "price": null
+            },
+            "type": "bathroom faucet",
+            "details": {
+            "Flow Rate": "1.5 GPM",
+            "Mount Type": "Deck Mount | Three Holes",
+            "Finish": "MatteBlack (MB)",
+            "Model": "65875LF-BL",
+            "Connection Size": "1/2 \"",
+            "Options": [
+                "HL5875-BL - Lever Handle",
+                "HX5875-BL - Cross Handle",
+                "HL5875-BLWD - Cross Handle"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque libero tellus, cursus ut dictum vel, tincidunt in odio. Duis dignissim magna nunc, et placerat ligula eleifend vel. Morbi ut tempor diam. Donec convallis, nibh in auctor lacinia, nunc ante eleifend lacus."
+            }
+        },
+        {
+            "id":5,
+            "name": "two handle wall-mount faucet",
+            "brandName": "brizo",
+            "img": {
+            "list": "/uploads/faucet_c444f6ce8c.png?updated_at=2022-04-24T17:02:32.716Z",
+            "mockup": "/uploads/image_8_0eb4f89322.png?updated_at=2022-04-24T17:02:33.459Z"
+            },
+            "luxury": {
+            "isLuxury": false,
+            "price": null
+            },
+            "type": "bathroom faucet",
+            "details": {
+            "Flow Rate": "1.5 GPM",
+            "Mount Type": "Deck Mount | Three Holes",
+            "Finish": "MatteBlack (MB)",
+            "Model": "65875LF-BL",
+            "Connection Size": "1/2 \"",
+            "Options": [
+                "HL5875-BL - Lever Handle",
+                "HX5875-BL - Cross Handle",
+                "HL5875-BLWD - Cross Handle"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque libero tellus, cursus ut dictum vel, tincidunt in odio. Duis dignissim magna nunc, et placerat ligula eleifend vel. Morbi ut tempor diam. Donec convallis, nibh in auctor lacinia, nunc ante eleifend lacus."
+            }
+        },
+        {
+            "id":6,
+            "name": "two handle wall-mount faucet",
+            "brandName": "brizo",
+            "img": {
+            "list": "/uploads/faucet_c444f6ce8c.png?updated_at=2022-04-24T17:02:32.716Z",
+            "mockup": "/uploads/image_8_0eb4f89322.png?updated_at=2022-04-24T17:02:33.459Z"
+            },
+            "luxury": {
+            "isLuxury": false,
+            "price": null
+            },
+            "type": "bathroom faucet",
+            "details": {
+            "Flow Rate": "1.5 GPM",
+            "Mount Type": "Deck Mount | Three Holes",
+            "Finish": "MatteBlack (MB)",
+            "Model": "65875LF-BL",
+            "Connection Size": "1/2 \"",
+            "Options": [
+                "HL5875-BL - Lever Handle",
+                "HX5875-BL - Cross Handle",
+                "HL5875-BLWD - Cross Handle"
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque libero tellus, cursus ut dictum vel, tincidunt in odio. Duis dignissim magna nunc, et placerat ligula eleifend vel. Morbi ut tempor diam. Donec convallis, nibh in auctor lacinia, nunc ante eleifend lacus."
+            }
+        }
+    ]
+}
