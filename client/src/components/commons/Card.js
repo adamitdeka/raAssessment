@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 function Card(props) {
     const {colors, fontConfig, fonts, fontSizes} = useTheme();
-
+    const {isLuxury, brandName, productName, image} = props;
 
     const BrandName = styled.h3`
         font-family: ${fonts.body};
@@ -17,7 +17,7 @@ function Card(props) {
         text-align: center;
         color: ${colors.muted[900]};
     `
-    const ProductType = styled.p`
+    const ProductName = styled.p`
         font-family: ${fonts.body};
         font-size: 1em;
         margin: 0;
@@ -53,8 +53,8 @@ function Card(props) {
         cursor: pointer;
     `
     return (
-        <Box p={10}>
-            {props.luxury?<Disabled/>:null}
+        <Box p={10} m={2}>
+            {isLuxury?<Disabled/>:null}
             <Box>
                 <Box alignSelf='flex-end' m={2}>
                     <Svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/Svg" >
@@ -64,7 +64,7 @@ function Card(props) {
                         </g>
                     </Svg>
                 </Box>
-                {props.luxury?<Center>
+                {isLuxury?<Center>
                     <LuxuryTag>
                         <Svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" viewBox="0 0 32 32" fill={colors.muted[900]}>
                             <path d="M 16 3 C 12.15625 3 9 6.15625 9 10 L 9 13 L 6 13 L 6 29 L 26 29 L 26 13 L 23 13 L 23 10 C 23 6.15625 19.84375 3 16 3 Z M 16 5 C 18.753906 5 21 7.246094 21 10 L 21 13 L 11 13 L 11 10 C 11 7.246094 13.246094 5 16 5 Z M 8 15 L 24 15 L 24 27 L 8 27 Z"></path>
@@ -74,11 +74,11 @@ function Card(props) {
                 </Center>:null}
             </Box>
             <Center m={2}>
-                <Image source={faucet} style={{ width: 120, height:120}} /> 
+                <Image source={`http://localhost:1337${image}`} style={{ width: 120, height:120}} /> 
             </Center>
             <Box mt={5}>
-                <BrandName>Brizo</BrandName>
-                <ProductType>Two Handle Wall-Mount Faucet</ProductType>
+                <BrandName>{brandName}</BrandName>
+                <ProductName>{productName}</ProductName>
             </Box>
         </Box>
     );

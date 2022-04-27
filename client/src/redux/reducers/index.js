@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import modal from "./modal";
+import products from "./products";
 
 const reducer = combineReducers({
-    modal
+    products
 });
 
 export default reducer

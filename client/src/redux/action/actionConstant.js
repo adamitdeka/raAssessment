@@ -1,1 +1,2 @@
-export const OPEN_MODAL = 'OPEN_MODAL';
+export const ADD_PRODUCTS_DATA = 'ADD_PRODUCTS_DATA';
+export const REQ_PRODUCTS_DATA = 'REQ_PRODUCTS_DATA'

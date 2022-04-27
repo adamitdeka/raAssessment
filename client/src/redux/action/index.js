@@ -1,8 +1,14 @@
-import { OPEN_MODAL } from "./actionConstant";
+import { ADD_PRODUCTS_DATA, REQ_PRODUCTS_DATA } from "./actionConstant";
 
-export function openModal(params){
+export function addProducts(params){
     return {
-        type: OPEN_MODAL,
+        type: ADD_PRODUCTS_DATA,
         payload: params
+    }
+}
+
+export function reqProducts(){
+    return{
+        type: REQ_PRODUCTS_DATA
     }
 }

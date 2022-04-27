@@ -5,9 +5,10 @@ import Card from "../commons/Card";
 import styled from "styled-components";
 import ProductModal from "../commons/Modal";
 
-function ProductList() {
-    const [openModal, setModal] = useState(false)
-
+function ProductList(props) {
+    const products = props.data;
+    const [openModal, setModal] = useState(false);
+    const [modalData, setModalData] = useState({isOpen:false,data:null});
     const ListContainer = styled.div`
         display: grid;
         grid-template-columns: auto auto auto;
@@ -24,24 +25,28 @@ function ProductList() {
         cursor: default;
         border-style: none;
     `
-    const handleClick=(event)=>{
-        setModal(true);
-    }
     const closeModal = (event)=>{
-        setModal(false);
+        setModalData({isOpen: false, data: false });
     }
+    let productList = [];
+    if(products&&Object.keys(products).length>0){
+        Object.keys(products).forEach((item,index)=>{
+            let product = products[item].attributes.product;
+            if(product.luxury.isLuxury){
+                productList.push(<DisabledListItem key={index} href="#"><Card isLuxury brandName={product.brandName} productName={product.name} image={product.img.list}/></DisabledListItem>)
+            }else{
+                productList.push(<ListItem key={index} onClick={()=>{setModalData({isOpen: true, data:product})}} href="#"><Card brandName={product.brandName} productName={product.name} image={product.img.list}/></ListItem>)
+            }
+        })
+    }
+
     return ( 
         <Box>
             <Box><CategoryHeading category="bath"/></Box>
             <ListContainer >
-                <ListItem onClick={handleClick} href="#"><Card m={2}/></ListItem>
-                <ListItem href="#"><Card m={2}/></ListItem>
-                <ListItem href="#"><Card m={2}/></ListItem>
-                <ListItem href="#"><Card m={2}/></ListItem>
-                <ListItem href="#"><Card m={2}/></ListItem>
-                <DisabledListItem href="#"><Card m={2} luxury/></DisabledListItem>
+                {productList}
             </ListContainer>
-            <ProductModal isOpen={openModal} handleClose={closeModal}/>
+            <ProductModal isOpen={modalData.isOpen} handleClose={closeModal} data={modalData}/>
         </Box>
      );
 }

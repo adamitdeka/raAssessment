@@ -1,12 +1,10 @@
-import { createStore } from "redux";
 import { Provider } from "react-redux";
-import reducer from "./src/redux/reducers";
+import store from "./src/redux/store";
 import { NativeBaseProvider, extendTheme, Image, List } from "native-base";
 import { Montserrat_400Regular, Montserrat_700Bold, useFonts } from "@expo-google-fonts/montserrat";
 import Header from "./src/components/layout/header";
-import Card from "./src/components/commons/Card";
-import CategoryHeading from "./src/components/commons/CategoryHeading";
 import ProductList from "./src/components/products/List";
+import Home from "./src/pages/Home";
 
 const theme = extendTheme({
   colors:{
@@ -31,19 +29,15 @@ const theme = extendTheme({
 
 export default function App() {
   let [fontsLoaded] = useFonts({ Montserrat_400Regular, Montserrat_700Bold });
-  const store = createStore(reducer);
   if (!fontsLoaded) {
-    console.log(fontsLoaded)
     return 'Loading...';
   }
   return (
     <Provider store={store}>
       <NativeBaseProvider theme={theme}>
-        <Header/>
-        <ProductList/>
+        <Home/>
       </NativeBaseProvider>
     </Provider>
   );
 }
 
-//https://drive.google.com/thumbnail?id=1bNLKns95z5ODRanoWRHQxqaDLye8ny6Z
